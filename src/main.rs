@@ -10,4 +10,3 @@ async fn main() -> Result<(), std::io::Error> {
     let bound_server = server.bind("127.0.0.1:8000")?;
     bound_server.run().await
 }
-
